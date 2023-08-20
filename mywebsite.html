@@ -1,3 +1,11 @@
 <script>
+  access = new URLSearchParams(window.location.search).get("acc");
+  if (access == "eng") {
+    console.log("to eng website");
+    window.location.href = "https://sites.google.com/view/willyston"
+  }else{
+    console.log("to chinese website");
     window.location.href = "https://sites.google.com/view/willystone01010/home"
+  }
+    
 </script>
